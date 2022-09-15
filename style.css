@@ -1,2 +1,46 @@
 *{margin: 0%;
 padding: 0%;}
+
+body{
+    
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    width:100%;
+    height: 60px;
+    background-color: blueviolet;
+    flex-direction: row;
+    justify-content:space-between;
+    
+}
+
+.logo-header{
+    margin-top: 10px;
+    padding-left: 50px;
+    width: 100px;
+    height: 60px;
+    
+    
+}
+.logo-header img{
+    width: 100%;
+   
+
+}
+
+.input-header{
+width: 100px;
+height: 100%;
+
+
+}
+.input-header input{
+padding: 4px;
+ border: 0.1vh solid black ;
+    border-radius: 50px;
+}
